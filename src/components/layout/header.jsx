@@ -31,14 +31,7 @@ export default function Header() {
       href: "/ai-chatbot",
       label: "Trò Chuyện Cùng AI",
     },
-    {
-      href: "/ai-usage",
-      label: "AI Usage",
-    },
-    {
-      href: "/informations",
-      label: "Thông tin chung về dự án",
-    },
+ 
   ];
 
   const handleNavigate = (href) => {

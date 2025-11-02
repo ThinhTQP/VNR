@@ -43,7 +43,7 @@ const AIPage = () => {
   const [chatHistory, setChatHistory] = useState([
     {
       role: "ai",
-      text: `Chào bạn, tui là Tèo. Tui sẽ là trợ lý trả lời hỗ trợ bạn về các kiến thức về "Tư Tưởng Hồ Chí Minh về Đảng Cộng Sản Việt Nam". Thắc mắc gì thì hỏi Tèo nha!`,
+      text: `Chào bạn, tui là Tèo. Tui sẽ là trợ lý trả lời hỗ trợ bạn về các kiến thức về "Chiến dịch Điện Biên Phủ và các sự kiện liên quan". Thắc mắc gì thì hỏi Tèo nha!`,
     },
   ]);
   const inputRef = useRef();
@@ -160,7 +160,7 @@ const AIPage = () => {
         >
           <div className="w-full flex flex-col items-center gap-2 text-center p-4 sm:p-5">
             <p className="font-bold text-base sm:text-lg">
-              Trợ lý AI Tư Tưởng Hồ Chí Minh về ĐCSVN
+              Trợ lý AI về Chiến dịch Điện Biên Phủ
             </p>
             <p className="font-light text-sm sm:text-base">
               Historical Research Assistant
