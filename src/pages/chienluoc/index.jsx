@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { useAnimation, useInView } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
 import { FaCalendarAlt } from "react-icons/fa";
 
 // ============================================================================
