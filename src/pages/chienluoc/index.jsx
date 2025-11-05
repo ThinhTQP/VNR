@@ -351,8 +351,7 @@ export default function StrategySection({ className = "" }) {
         {/* ========== PHẦN I: CHIẾN DỊCH TIỀN ĐỀ ========== */}
         <section className="mb-24">
           <div className="flex items-center mb-12">
-            <div className="w-1 h-12 bg-red-600 mr-4" />
-            <h2 className="text-3xl font-bold text-[#5D0404] font-brygada">I. Chiến Dịch Tiền Đề - Tích Lũy Kinh Nghiệm</h2>
+            <h2 className="text-4xl font-bold text-[#5D0404] font-brygada">I. Chiến Dịch Tiền Đề - Tích Lũy Kinh Nghiệm</h2>
           </div>
 
           <p className="text-gray-700 font-grenze text-base leading-relaxed mb-12">
@@ -372,27 +371,26 @@ export default function StrategySection({ className = "" }) {
         {/* ========== PHẦN II: CHỈNH ĐẢNG CHỈNH QUÂN ========== */}
         <section className="mb-24">
           <div className="flex items-center mb-12">
-            <div className="w-1 h-12 bg-yellow-600 mr-4" />
-            <h2 className="text-3xl font-bold text-[#5D0404] font-brygada">II. Chỉnh Đảng, Chỉnh Quân</h2>
+            <h2 className="text-4xl font-bold text-[#5D0404] font-brygada">II. Chỉnh Đảng, Chỉnh Quân</h2>
           </div>
 
           <div className="bg-yellow-50 rounded-2xl p-6 border-l-4 border-yellow-600 mb-12">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div>
-                <h4 className="font-bold text-yellow-800 mb-2 font-brygada">Hội nghị TW 3 (4/1952)</h4>
-                <p className="text-gray-700 text-sm font-grenze">Nhiệm vụ trọng tâm giai đoạn 1952-1953</p>
+                <h4 className="font-bold text-yellow-800 mb-2 font-brygada text-lg">Hội nghị TW 3 (4/1952)</h4>
+                <p className="text-gray-700 text-base font-grenze">Nhiệm vụ trọng tâm giai đoạn 1952-1953</p>
               </div>
               <div>
-                <h4 className="font-bold text-yellow-800 mb-2 font-brygada">Mục đích</h4>
-                <ul className="text-gray-700 text-sm font-grenze space-y-1">
+                <h4 className="font-bold text-yellow-800 mb-2 font-brygada text-lg">Mục đích</h4>
+                <ul className="text-gray-700 text-base font-grenze space-y-1">
                   <li>• Củng cố tổ chức Đảng</li>
                   <li>• Nâng cao năng lực lãnh đạo</li>
                   <li>• Tăng sức chiến đấu quân đội</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold text-yellow-800 mb-2 font-brygada">Kết quả</h4>
-                <p className="text-gray-700 text-sm font-grenze">
+                <h4 className="font-bold text-yellow-800 mb-2 font-brygada text-lg">Kết quả</h4>
+                <p className="text-gray-700 text-base font-grenze">
                   Tăng cường Đảng - Chính phủ - Nhân dân, mở rộng mặt trận đoàn kết dân tộc
                 </p>
               </div>
@@ -403,25 +401,24 @@ export default function StrategySection({ className = "" }) {
         {/* ========== PHẦN III: QUYẾT ĐỊNH CHIẾN LƯỢC ========== */}
         <section className="mb-24">
           <div className="flex items-center mb-12">
-            <div className="w-1 h-12 bg-blue-600 mr-4" />
-            <h2 className="text-3xl font-bold text-[#5D0404] font-brygada">III. Quyết Định Chiến Lược Đông Xuân 1953-1954</h2>
+            <h2 className="text-4xl font-bold text-[#5D0404] font-brygada">III. Quyết Định Chiến Lược Đông Xuân 1953-1954</h2>
           </div>
 
           {/* Ba mục tiêu chiến lược */}
           <div className="bg-blue-50 rounded-2xl p-8 mb-12 border-l-4 border-blue-600">
-            <h3 className="font-bold text-blue-900 mb-6 text-lg font-brygada">Ba Mục Tiêu Chiến Lược:</h3>
+            <h3 className="font-bold text-blue-900 mb-6 text-xl font-brygada">Ba Mục Tiêu Chiến Lược:</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <motion.div whileHover={{ y: -5 }} className="bg-white rounded-lg p-6">
                 <div className="text-4xl font-bold text-blue-600 mb-3">1</div>
-                <p className="text-gray-700 font-grenze font-semibold">Tiêu diệt sinh lực địch</p>
+                <p className="text-gray-700 font-grenze font-semibold text-base">Tiêu diệt sinh lực địch</p>
               </motion.div>
               <motion.div whileHover={{ y: -5 }} className="bg-white rounded-lg p-6">
                 <div className="text-4xl font-bold text-blue-600 mb-3">2</div>
-                <p className="text-gray-700 font-grenze font-semibold">Bồi dưỡng lực lượng ta</p>
+                <p className="text-gray-700 font-grenze font-semibold text-base">Bồi dưỡng lực lượng ta</p>
               </motion.div>
               <motion.div whileHover={{ y: -5 }} className="bg-white rounded-lg p-6">
                 <div className="text-4xl font-bold text-blue-600 mb-3">3</div>
-                <p className="text-gray-700 font-grenze font-semibold">Giữ thế chủ động, buộc địch phân tán</p>
+                <p className="text-gray-700 font-grenze font-semibold text-base">Giữ thế chủ động, buộc địch phân tán</p>
               </motion.div>
             </div>
           </div>
@@ -456,27 +453,26 @@ export default function StrategySection({ className = "" }) {
         {/* ========== PHẦN IV: CẢI CÁCH RUỘNG ĐẤT ========== */}
         <section className="mb-24">
           <div className="flex items-center mb-12">
-            <div className="w-1 h-12 bg-green-600 mr-4" />
-            <h2 className="text-3xl font-bold text-[#5D0404] font-brygada">IV. Cải Cách Ruộng Đất</h2>
+            <h2 className="text-4xl font-bold text-[#5D0404] font-brygada">IV. Cải Cách Ruộng Đất</h2>
           </div>
 
           <div className="bg-green-50 rounded-2xl p-6 mb-12 border-l-4 border-green-600">
-            <h3 className="font-bold text-green-900 mb-4 font-brygada">Mục tiêu: "Người cày có ruộng"</h3>
-            <p className="text-gray-700 font-grenze text-base">
+            <h3 className="font-bold text-green-900 mb-4 font-brygada text-xl">Mục tiêu: "Người cày có ruộng"</h3>
+            <p className="text-gray-700 font-grenze text-lg">
               Phát động giảm tô, giảm tức; tiến tới cải cách ruộng đất toàn diện
             </p>
           </div>
 
           {/* Trình tự thực hiện - Danh sách đơn giản */}
           <div className="bg-green-50 rounded-2xl p-6 border-l-4 border-green-600 mb-12">
-            <h3 className="font-bold text-green-900 mb-4 font-brygada">Trình Tự Thực Hiện:</h3>
+            <h3 className="font-bold text-green-900 mb-4 font-brygada text-xl">Trình Tự Thực Hiện:</h3>
             <ul className="space-y-3">
               {LAND_REFORM_TIMELINE.map((item, index) => (
                 <li key={item.id} className="flex items-start">
                   <span className="text-green-600 font-bold mr-3 text-lg">{index + 1}.</span>
                   <div className="flex-1">
-                    <p className="font-bold text-green-800 font-brygada">{item.event} <span className="text-xs text-gray-600 font-grenze italic">({item.date})</span></p>
-                    <p className="text-gray-700 text-sm font-grenze">{item.content}</p>
+                    <p className="font-bold text-green-800 font-brygada text-base">{item.event} <span className="text-xs text-gray-600 font-grenze italic">({item.date})</span></p>
+                    <p className="text-gray-700 text-base font-grenze">{item.content}</p>
                   </div>
                 </li>
               ))}
@@ -486,8 +482,8 @@ export default function StrategySection({ className = "" }) {
           {/* Kết quả & Ý nghĩa */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <motion.div whileHover={{ y: -5 }} className="bg-yellow-50 rounded-lg p-6 border-l-4 border-yellow-600">
-              <h3 className="font-bold text-yellow-900 mb-3 font-brygada">Kết quả Thực Hiện</h3>
-              <ul className="space-y-2 text-gray-700 font-grenze text-base">
+              <h3 className="font-bold text-yellow-900 mb-3 font-brygada text-xl">Kết quả Thực Hiện</h3>
+              <ul className="space-y-2 text-gray-700 font-grenze text-lg">
                 <li>▪ Gần 180.000 héc ta ruộng đất tạm cấp</li>
                 <li>▪ Hàng nghìn héc ta chia chính thức cho nông dân</li>
                 <li>▪ Trâu bò, nông cụ chia cho nông dân nghèo</li>
@@ -495,8 +491,8 @@ export default function StrategySection({ className = "" }) {
             </motion.div>
 
             <motion.div whileHover={{ y: -5 }} className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-600">
-              <h3 className="font-bold text-blue-900 mb-3 font-brygada">Ý Nghĩa Sâu Sắc</h3>
-              <ul className="space-y-2 text-gray-700 font-grenze text-base">
+              <h3 className="font-bold text-blue-900 mb-3 font-brygada text-xl">Ý Nghĩa Sâu Sắc</h3>
+              <ul className="space-y-2 text-gray-700 font-grenze text-lg">
                 <li>▪ Nức lòng bộ đội tiền tuyến</li>
                 <li>▪ Tăng quyết tâm tiêu diệt giặc</li>
                 <li>▪ Động viên chi viện Điện Biên Phủ</li>
@@ -508,22 +504,21 @@ export default function StrategySection({ className = "" }) {
         {/* ========== PHẦN V: CHI VIỆN TIỀN TUYẾN ========== */}
         <section className="mb-24">
           <div className="flex items-center mb-12">
-            <div className="w-1 h-12 bg-orange-600 mr-4" />
-            <h2 className="text-3xl font-bold text-[#5D0404] font-brygada">V. Chi Viện Tiền Tuyến</h2>
+            <h2 className="text-4xl font-bold text-[#5D0404] font-brygada">V. Chi Viện Tiền Tuyến</h2>
           </div>
 
           <motion.div
             whileHover={{ boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }}
             className="bg-orange-50 rounded-2xl p-8 mb-12 border-l-4 border-orange-600 transition-shadow"
           >
-            <h3 className="text-center font-bold text-2xl text-orange-900 mb-6 font-brygada">
+            <h3 className="text-center font-bold text-3xl text-orange-900 mb-6 font-brygada">
               "Tất Cả Cho Tiền Tuyến, Tất Cả Để Chiến Thắng"
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white rounded-lg p-4">
-                <h4 className="font-bold text-orange-800 mb-2 font-brygada">Hệ Thống Tổ Chức</h4>
-                <ul className="space-y-1 text-gray-700 font-grenze text-sm">
+                <h4 className="font-bold text-orange-800 mb-2 font-brygada text-lg">Hệ Thống Tổ Chức</h4>
+                <ul className="space-y-1 text-gray-700 font-grenze text-base">
                   <li>• Ủy ban chi viện tiền tuyến</li>
                   <li>• Hội đồng cung cấp Trung ương</li>
                   <li>• Hội đồng cung cấp địa phương</li>
@@ -531,8 +526,8 @@ export default function StrategySection({ className = "" }) {
               </div>
 
               <div className="bg-white rounded-lg p-4">
-                <h4 className="font-bold text-orange-800 mb-2 font-brygada">Phát Triển Kinh Tế</h4>
-                <ul className="space-y-1 text-gray-700 font-grenze text-sm">
+                <h4 className="font-bold text-orange-800 mb-2 font-brygada text-lg">Phát Triển Kinh Tế</h4>
+                <ul className="space-y-1 text-gray-700 font-grenze text-base">
                   <li>• Tăng gia sản xuất</li>
                   <li>• Cải cách tài chính</li>
                   <li>• Tự túc lương thực</li>
@@ -540,8 +535,8 @@ export default function StrategySection({ className = "" }) {
               </div>
 
               <div className="bg-white rounded-lg p-4">
-                <h4 className="font-bold text-orange-800 mb-2 font-brygada">Quy Mô Chi Viện</h4>
-                <ul className="space-y-1 text-gray-700 font-grenze text-sm">
+                <h4 className="font-bold text-orange-800 mb-2 font-brygada text-lg">Quy Mô Chi Viện</h4>
+                <ul className="space-y-1 text-gray-700 font-grenze text-base">
                   <li>• Hàng vạn ngày công lao động</li>
                   <li>• Hàng vạn tấn lương thực</li>
                   <li>• Hàng vạn tấn đạn dược</li>
@@ -552,14 +547,14 @@ export default function StrategySection({ className = "" }) {
 
           {/* Hoạt động chi viện - Danh sách */}
           <div className="bg-orange-50 rounded-2xl p-6 border-l-4 border-orange-600 mb-12">
-            <h3 className="font-bold text-orange-900 mb-6 font-brygada">Hoạt Động Chi Viện:</h3>
+            <h3 className="font-bold text-orange-900 mb-6 font-brygada text-xl">Hoạt Động Chi Viện:</h3>
             <div className="space-y-6">
               {SUPPORT_TIMELINE.map((item, index) => (
                 <div key={item.id}>
                   <div className="flex items-start mb-3">
                     <span className="text-orange-600 font-bold text-lg mr-3">{index + 1}.</span>
                     <div>
-                      <p className="font-bold text-orange-900 font-brygada">{item.region} <span className="text-sm text-orange-700 font-grenze italic">{item.period}</span></p>
+                      <p className="font-bold text-orange-900 font-brygada text-base">{item.region} <span className="text-base text-orange-700 font-grenze italic">{item.period}</span></p>
                     </div>
                   </div>
                   <ul className="ml-8 space-y-2 mb-3">
@@ -592,33 +587,33 @@ export default function StrategySection({ className = "" }) {
           whileHover={{ boxShadow: "0 20px 40px rgba(0,0,0,0.1)" }}
           className="bg-gradient-to-br from-red-50 to-yellow-50 rounded-2xl p-8 border-2 border-red-600 transition-shadow"
         >
-          <h2 className="text-2xl font-bold text-[#5D0404] mb-8 font-brygada text-center">
+          <h2 className="text-3xl font-bold text-[#5D0404] mb-8 font-brygada text-center">
             Kết Luận: Chuẩn Bị Toàn Diện Cho Chiến Dịch Điện Biên Phủ
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <motion.div whileHover={{ y: -10 }} className="text-center">
               <div className="text-4xl font-bold text-red-600 mb-2">🎯</div>
-              <p className="font-bold text-[#5D0404] mb-1 font-brygada">Quân Sự</p>
-              <p className="text-gray-700 text-sm font-grenze">Tích lũy kinh nghiệm qua các chiến dịch</p>
+              <p className="font-bold text-[#5D0404] mb-1 font-brygada text-lg">Quân Sự</p>
+              <p className="text-gray-700 text-base font-grenze">Tích lũy kinh nghiệm qua các chiến dịch</p>
             </motion.div>
 
             <motion.div whileHover={{ y: -10 }} className="text-center">
               <div className="text-4xl font-bold text-yellow-600 mb-2">⚙️</div>
-              <p className="font-bold text-[#5D0404] mb-1 font-brygada">Chính Trị</p>
-              <p className="text-gray-700 text-sm font-grenze">Chỉnh Đảng, cải cách ruộng đất</p>
+              <p className="font-bold text-[#5D0404] mb-1 font-brygada text-lg">Chính Trị</p>
+              <p className="text-gray-700 text-base font-grenze">Chỉnh Đảng, cải cách ruộng đất</p>
             </motion.div>
 
             <motion.div whileHover={{ y: -10 }} className="text-center">
               <div className="text-4xl font-bold text-green-600 mb-2">🌾</div>
-              <p className="font-bold text-[#5D0404] mb-1 font-brygada">Hậu Phương</p>
-              <p className="text-gray-700 text-sm font-grenze">Phát triển kinh tế, vững mạnh hậu phương</p>
+              <p className="font-bold text-[#5D0404] mb-1 font-brygada text-lg">Hậu Phương</p>
+              <p className="text-gray-700 text-base font-grenze">Phát triển kinh tế, vững mạnh hậu phương</p>
             </motion.div>
 
             <motion.div whileHover={{ y: -10 }} className="text-center">
               <div className="text-4xl font-bold text-orange-600 mb-2">🚚</div>
-              <p className="font-bold text-[#5D0404] mb-1 font-brygada">Chi Viện</p>
-              <p className="text-gray-700 text-sm font-grenze">Toàn dân chi viện tiền tuyến</p>
+              <p className="font-bold text-[#5D0404] mb-1 font-brygada text-lg">Chi Viện</p>
+              <p className="text-gray-700 text-base font-grenze">Toàn dân chi viện tiền tuyến</p>
             </motion.div>
           </div>
         </motion.section>
