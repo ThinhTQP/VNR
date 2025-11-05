@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-// eslint-disable-next-line no-unused-vars
 import { motion, useAnimation, useInView } from "framer-motion";
 import { FaCalendarAlt } from "react-icons/fa";
 
