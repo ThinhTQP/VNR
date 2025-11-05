@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion, useAnimation, useInView } from "framer-motion";
 import { FaCalendarAlt } from "react-icons/fa";
 
@@ -461,7 +462,7 @@ export default function StrategySection({ className = "" }) {
 
           <div className="bg-green-50 rounded-2xl p-6 mb-12 border-l-4 border-green-600">
             <h3 className="font-bold text-green-900 mb-4 font-brygada">Mục tiêu: "Người cày có ruộng"</h3>
-            <p className="text-gray-700 font-grenze">
+            <p className="text-gray-700 font-grenze text-base">
               Phát động giảm tô, giảm tức; tiến tới cải cách ruộng đất toàn diện
             </p>
           </div>
@@ -474,9 +475,8 @@ export default function StrategySection({ className = "" }) {
                 <li key={item.id} className="flex items-start">
                   <span className="text-green-600 font-bold mr-3 text-lg">{index + 1}.</span>
                   <div className="flex-1">
-                    <p className="font-bold text-green-800 font-brygada">{item.event}</p>
+                    <p className="font-bold text-green-800 font-brygada">{item.event} <span className="text-xs text-gray-600 font-grenze italic">({item.date})</span></p>
                     <p className="text-gray-700 text-sm font-grenze">{item.content}</p>
-                    <p className="text-gray-600 text-sm font-grenze italic">{item.date}</p>
                   </div>
                 </li>
               ))}
@@ -487,7 +487,7 @@ export default function StrategySection({ className = "" }) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <motion.div whileHover={{ y: -5 }} className="bg-yellow-50 rounded-lg p-6 border-l-4 border-yellow-600">
               <h3 className="font-bold text-yellow-900 mb-3 font-brygada">Kết quả Thực Hiện</h3>
-              <ul className="space-y-2 text-gray-700 font-grenze text-sm">
+              <ul className="space-y-2 text-gray-700 font-grenze text-base">
                 <li>▪ Gần 180.000 héc ta ruộng đất tạm cấp</li>
                 <li>▪ Hàng nghìn héc ta chia chính thức cho nông dân</li>
                 <li>▪ Trâu bò, nông cụ chia cho nông dân nghèo</li>
@@ -496,7 +496,7 @@ export default function StrategySection({ className = "" }) {
 
             <motion.div whileHover={{ y: -5 }} className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-600">
               <h3 className="font-bold text-blue-900 mb-3 font-brygada">Ý Nghĩa Sâu Sắc</h3>
-              <ul className="space-y-2 text-gray-700 font-grenze text-sm">
+              <ul className="space-y-2 text-gray-700 font-grenze text-base">
                 <li>▪ Nức lòng bộ đội tiền tuyến</li>
                 <li>▪ Tăng quyết tâm tiêu diệt giặc</li>
                 <li>▪ Động viên chi viện Điện Biên Phủ</li>
@@ -559,8 +559,7 @@ export default function StrategySection({ className = "" }) {
                   <div className="flex items-start mb-3">
                     <span className="text-orange-600 font-bold text-lg mr-3">{index + 1}.</span>
                     <div>
-                      <p className="font-bold text-orange-900 font-brygada">{item.region}</p>
-                      <p className="text-sm text-orange-700 font-grenze italic">{item.period}</p>
+                      <p className="font-bold text-orange-900 font-brygada">{item.region} <span className="text-sm text-orange-700 font-grenze italic">{item.period}</span></p>
                     </div>
                   </div>
                   <ul className="ml-8 space-y-2 mb-3">
@@ -582,7 +581,7 @@ export default function StrategySection({ className = "" }) {
             className="bg-gradient-to-r from-orange-600 to-red-600 rounded-2xl p-8 text-white transition-shadow"
           >
             <h3 className="font-bold text-2xl mb-4 font-brygada text-center">Kết Quả</h3>
-            <p className="text-center font-grenze leading-relaxed">
+            <p className="text-center font-grenze leading-relaxed text-lg">
               Nhân dân cả nước đồng lòng, vượt núi rừng hiểm trở, cung cấp lương thực, đạn dược, phương tiện vận chuyển... "Tất cả vì tiền tuyến, tất cả để chiến thắng"
             </p>
           </motion.div>
