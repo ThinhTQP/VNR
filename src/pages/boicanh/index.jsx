@@ -104,7 +104,9 @@ export default function ContextSection({ className = "" }) {
             </div>
 
             {/* Ảnh Tướng Navarre */}
-            <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl p-8 shadow-xl border border-gray-200">
+          
+          </div>
+  <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl p-8 shadow-xl border border-gray-200">
               <div className="flex items-center mb-6">
                 <div className="w-3 h-8 bg-gray-600 rounded-full mr-4"></div>
                 <h3 className="text-2xl font-bold text-gray-800 font-brygada">Tướng Navarre</h3>
@@ -123,9 +125,7 @@ export default function ContextSection({ className = "" }) {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Cột phải: Timeline */}
+          {/* Cột phải: Timeline
           <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
             <div className="flex items-center mb-8">
               <div className="w-3 h-8 bg-gradient-to-b from-red-600 to-yellow-500 rounded-full mr-4"></div>
@@ -144,7 +144,7 @@ export default function ContextSection({ className = "" }) {
                 </li>
               ))}
             </ol>
-          </div>
+          </div> */}
         </div>
 
         

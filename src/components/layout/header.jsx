@@ -1,24 +1,26 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 export default function Header() {
   const navigate = useNavigate();
   const location = useLocation();
- useEffect(() => {
-  fetch("https://v2.jasoncameron.dev/abacus/hit/", {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      project: "tuthuonghochiminh-local",
-      event: "visit",
-      meta: {
-        path: window.location.pathname
-      }
-    })
-  });
-}, [location.pathname]);
+  const [views, setViews] = useState(null);
+
+  useEffect(() => {
+    // Lấy path hiện tại, ví dụ: /trang-chu
+    const pagePath = window.location.pathname.replace(/\//g, "") || "home";
+
+    // Gọi API Abacus — bạn có thể thay domain thành tên web thật sau này
+    const url = `https://abacus.jasoncameron.dev/hit/localhost/${pagePath}`;
+
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setViews(data.value))
+      .catch((err) => {
+        console.error("❌ Error fetching view count:", err);
+        setViews(0);
+      });
+  }, []);
 
   const navItems = [
     { href: "/trang-chu", label: "Trang chủ" },
@@ -26,7 +28,7 @@ export default function Header() {
       href: "/ai-chatbot",
       label: "Trò Chuyện Cùng AI",
     },
- 
+
   ];
 
   const handleNavigate = (href) => {
@@ -55,7 +57,18 @@ export default function Header() {
             </button>
           );
         })}
+        <div
+          className="flex-1 px-4 py-3 rounded-full font-grenze text-sm md:text-base transition-all duration-200 hover:scale-105"
+          style={{
+            backgroundColor: "#5D0404",
+            color: "white",
+          }}
+        >
+          <span className="block truncate text-center">👁️ Lượt truy cập :{" "}
+      {views === null ? "Đang tải..." : views.toLocaleString()}</span>
+        </div>
       </nav>
+
     </header>
   );
 }
