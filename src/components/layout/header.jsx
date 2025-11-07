@@ -11,7 +11,7 @@ export default function Header() {
     const pagePath = window.location.pathname.replace(/\//g, "") || "home";
 
     // Gọi API Abacus — bạn có thể thay domain thành tên web thật sau này
-    const url = `https://abacus.jasoncameron.dev/hit/localhost/${pagePath}`;
+    const url = `https://abacus.jasoncameron.dev/hit/vnr-one.vercel.app/${pagePath}`;
 
     fetch(url)
       .then((res) => res.json())
