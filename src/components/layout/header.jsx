@@ -23,11 +23,6 @@ export default function Header() {
   const navItems = [
     { href: "/trang-chu", label: "Trang chủ" },
     {
-      href: "/qua-trinh-ra-doi",
-      label: "Bối Cảnh Và Chiến Lược",
-    },
-    { href: "/van-dung", label: "Vận Dụng Tư Tưởng Hồ Chí Minh" },
-    {
       href: "/ai-chatbot",
       label: "Trò Chuyện Cùng AI",
     },

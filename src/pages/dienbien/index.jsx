@@ -29,8 +29,8 @@ const DIEN_BIEN_PHASES = [
       "17 giờ 30 phút ngày 7/5/1954, Tướng De Castries cùng toàn bộ Bộ Tham mưu của tập đoàn cứ điểm Điện Biên Phủ bị bắt sống. Ngay trong đêm đó, quân ta tiếp tục tiến công phân khu Nam, đánh dích tháo chạy về Thượng Lào. Đến 22 giờ, toàn bộ quân địch đã bị bắt làm tù binh."
     ],
     images: [
-      "/images/dienbien/dot3_1.jpg",
-      "/images/dienbien/dot3_2.jpg"
+      "https://imgnvsk.vnanet.vn/MediaUpload/Content/2024/03/29/vna-potal-ky-niem-70-nam-chien-thang-dien-bien-phu-751954-752024-bo-doi-phao-binh-buoc-phat-trien-vuot-bac-tu-chien-dich-dien-bien-phu-7287427-1-29-17-57-45.jpg",
+      "https://img.baoninhbinh.org.vn/DATA/ARTICLES/2024/5/4/chien-dich-dien-bien-phu-danh-chiem-cac-cu-diem-cuoi-cung-o-c7907.jpg"
     ]
   }
 ];
